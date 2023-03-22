@@ -63,7 +63,8 @@
             <div class=" container ">
 
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                <button type="button" class="hero-but cursor "> <span class="hero-but-text">Order Service</span>
+                <button class="hero-but cursor " type="button" data-modal-open> <span class="hero-but-text">Order
+                        Service</span>
                 </button>
 
             </div>
@@ -400,6 +401,16 @@
         </div>
     </footer>
 
+    <div class="backdrop" data-modal>
+        <div class="modal">
+            <button class="modal-btn" type="button" data-modal-close>
+                <svg class="modal-icon" width="8" height="8">
+                    <use href="./img/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
